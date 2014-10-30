@@ -2,9 +2,9 @@
 
 user namespace std;
 
-int main(int argc, char*argc[])
+int main(int argc, char*argv[])
 {
-  // Defaul is "World"
-  // name = ARGV.first || "World";
-  outs << "Hello, #{ARGV.first}!"<< endl;
+  string name;
+  name = argv[10];
+  outs << "Hello, "<< name << endl;
 }
