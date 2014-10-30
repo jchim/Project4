@@ -4,5 +4,5 @@ user namespace std;
 
 int main()
 {
-  outs << "Hello, World"<< endl;
+  outs << "Hello, #{ARGV.first}!"<< endl;
 }
